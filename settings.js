@@ -2,19 +2,19 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2347063956321"
-global.ownername = "Precious Ayomide👑"
-global.ytname = "YT: Prexzyvilla"
-global.socialm = "GitHub: Prexzybooster"
-global.location = "Nigeria, Osun, Osogbo"
+global.ownernomer = "2348105696265"
+global.ownername = "Akinseloyin Elijah"
+global.ytname = "YT: Tech n' Elijah"
+global.socialm = "GitHub: Elijah59yf"
+global.location = "Nigeria, Lagos, Oworo"
 
-global.ownernumber = '2347063956321'  //creator number
-global.ownername = 'Precious Ayomide👑' //owner name
+global.ownernumber = '2348105696265'  //creator number
+global.ownername = 'Monarch Elijah👑' //owner name
 global.botname = '𝕻𝕽𝕰𝖃𝖄 𝕭𝖀𝕾 𝕻3' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = '👑Prexzy\n\nContact: +2347063956321'
+global.author = '👑Prexzy\n\nContact: +2348105696265'
 
 //console view/theme
 global.themeemoji = '🪀'
@@ -24,7 +24,7 @@ global.wm = "PREXZYVILLA."
 global.link = 'https://whatsapp.com/channel/0029VaaUfPO8qIzztuf42D04'
 
 //custom prefix
-global.prefa = ['','!','.','#','&']
+global.prefa = ['#','%']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
