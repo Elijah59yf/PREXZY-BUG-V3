@@ -90,7 +90,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          let code = await XeonBotInc.requestPairingCode(phoneNumber)
          code = code?.match(/.{1,4}/g)?.join("-") || code
          console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)))
-      }, 3000)
+      }, 4000)
    }
 
     XeonBotInc.ev.on('messages.upsert', async chatUpdate => {
