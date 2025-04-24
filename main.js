@@ -155,7 +155,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
         return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-    XeonBotInc.public = true
+    XeonBotInc.public = false
 
     XeonBotInc.serializeM = (m) => smsg(XeonBotInc, m, store)
 
